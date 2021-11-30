@@ -12,9 +12,8 @@ function App() {
       <div className="outer">
         <div className="inner">
           <Switch>
-            <Route exact path='/' component={Login} />
+            <Route exact path='/' component={SignUp} />
             <Route path="/sign-in" component={Login} />
-            <Route path="/sign-up" component={SignUp} />
           </Switch>
         </div>
       </div>
